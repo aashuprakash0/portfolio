@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #020617;
+  color: white;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #34d399;
+}
+
+.header p {
+  color: #94a3b8;
+  margin: 10px 0;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #34d399;
+  border: 1px solid #34d399;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #34d399;
+  color: black;
+}
+
+/* Gallery */
+.gallery {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Links */
+.links {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.links h2 {
+  margin-bottom: 20px;
+  color: #34d399;
+}
+
+.link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link-grid a {
+  padding: 10px 16px;
+  background: #34d399;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.link-grid a:hover {
+  background: #059669;
+}
